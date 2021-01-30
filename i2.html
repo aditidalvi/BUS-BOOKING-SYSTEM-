@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EasytoGo -Help</title>
+  <link rel="icon" href="icon.png" type="image/png" sizes="60x60px">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body {/*Arial, Helvetica, sans-serif;*/
+font-size: large;
+
+
+}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: large;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  font-size: large;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: horizontal;
+}
+
+input[type=tel] {
+  width: 100%;
+  padding: 12px;
+  font-size: large;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #008BFF;
+  color: white;
+  font-size: large;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#00ABFF;
+}
+
+.container {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  border-radius: 5px;
+  background-color: #f0f1f2;
+  padding: 15px 20px;
+  width:80%;
+  margin:0 auto;
+ 
+}
+
+footer{
+  background-color: #343434;
+  color: #f2f2f2;
+}
+
+footer a{
+  color: #FFE66D;
+}
+#thanks{
+  color: green;
+  font-size:large;
+}
+</style>
+</head>
+<body>
+  <a name="TOP"></a>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">EasytoGo</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="home1.php">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Manage Booking<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <li><a href="http://localhost/Aditi 2/cancellation.php"><strong>Cancel</strong></a></li>
+              <li><a href="http://localhost/Aditi 2/show_ticket.php"><strong>Show my ticket</strong></a></li>
+                <li><a href="http://localhost/Aditi 2/print_ticket.php"><strong>Print </strong></a></li>
+            </ul>
+          </li>
+          <li><a href="fixed-about.html">About</a></li>
+          <li><a href="http://localhost/Aditi 2/i2.html">Help</a></li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+<center><h2><strong>Contact Us</strong></h2></center>
+<hr>
+<br>
+
+<div class="container">
+  <form method = "POST" id = "contactForm" name="contactForm" >
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="fname" placeholder="Your name.." required>
+
+    <label for="lname">Email</label>
+    <input type="email" id="lname" name="email" placeholder="Your Email Address .." required>
+
+    <label for="mobile">Mobile no.</label>
+    <input type="text" id="mobile" name="mobiles" placeholder="Your mobile no ...">
+
+  
+    <label for="subject">Message</label>
+    <textarea id="subject" name="message" placeholder="Message .." style="height:100px"></textarea>
+
+    <input type="submit" id="btn" value="Submit">
+
+    <div id="thanks"> </div>
+  </form>
+</div>
+
+<br>
+<br>
+
+<!--Footer Section-->
+<footer class="page-footer font-small blue pt-4">
+  <a name = "Contact"></a>
+  <br>
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-center">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h4>Contact Us</h4>
+          <p>Address: 15NSS, Kurla Narayan Ghatkopar, Mumbai, Maharashtra 400086</p>
+          <p>Mobile No: +91 9856876534/+91 8108778890</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+       <!-- <hr class="clearfix w-100 d-md-none pb-3"> -->
+  
+        <!-- Grid column -->
+        <!--<div class="col-md-3 mb-md-0 mb-3">-->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Links -->
+          <h4 >Links</h4>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Facebook</a>
+            </li>
+            <li>
+              <a href="#!">Twitter</a>
+            </li>
+            <li>
+              <a href="#!">Instagram</a>
+            </li>
+            <li>
+              <a href="#!">Email</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright: AUS
+      <a href="#TOP" >Back to top</a>
+      
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+
+  <script>
+    
+    jQuery('#contactForm').on('submit',function(e){
+      jQuery('#btn').val('Please wait...');
+      jQuery('#btn').attr('disabled',true);
+      jQuery.ajax({
+        url:'submit.php',
+        type:'post',
+        data:jQuery('#contactForm').serialize(),
+        success:function(result){
+          jQuery('#thanks').html('Thank you');
+          jQuery('#contactForm')['0'].reset();
+          jQuery('#btn').val('Submit');
+          jQuery('#btn').attr('disabled',false);
+        }
+      })
+      e.preventDefault();
+
+    });
+  </script>
+</body>
+</html>
